@@ -1,0 +1,17 @@
+.footer {
+    background-color: #000;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.created {
+    color: #F6FCFF;
+    margin-top: 20px;
+}
+.copyright {
+    color: #F6FCFF;
+    margin-bottom: 20px;
+}

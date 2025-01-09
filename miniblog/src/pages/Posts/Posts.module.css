@@ -1,0 +1,57 @@
+.post {
+    padding: 20px 20px 1px 20px;
+    margin-bottom: 2em;
+}
+
+.post img {
+    width: 600px;
+    height: 350px;
+    object-fit: scale-down;
+    margin-bottom: 1em;
+}
+
+.post h2 {
+    padding: 15px;
+    font-size: 2em;
+}
+
+.body {
+    font-size: 1.2em;
+    color: #000;
+    font-weight: 300;
+}
+
+.post .tags {
+    display: flex;
+    justify-content: center;
+    font-size: .8em;
+    flex-wrap: wrap;
+    color: #444; 
+}
+
+.tags p {
+    margin-top: .5em;
+    margin-right: .5em;
+    display: inline-block;
+}
+
+.tags span {
+    font-weight: bold;
+}
+
+.createdBy {
+    font-size: .8em;
+    font-style: italic;
+    margin-bottom: 10px;
+    padding: 0px 10px 0px 20px;
+    color: #444;
+}
+
+.createdAt {
+    font-size: .8em;
+    padding: 0px 10px 0px 20px;
+    color: #aaa;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+
+}

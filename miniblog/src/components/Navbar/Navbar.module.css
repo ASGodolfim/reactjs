@@ -1,0 +1,83 @@
+nav {
+    background-color: #000;
+    height: 50px;
+    padding: .5em 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, .15) 0px -2px 10px 0px;
+}
+
+.brand {
+    font-size: 1.2em;
+    color: #F6FCFF;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.brand span {
+    color: #F6FCFF;
+}
+
+.link_list {
+    display: flex;
+    list-style: none;
+    font-size: .8em;
+    align-items: center;
+}
+
+.link_list li {
+    margin-right: 0.2em;
+    display: flex; 
+    align-items: center; 
+}
+
+.link_list li a,
+.link_list li button {
+    text-transform: uppercase;
+    padding: .4em .4em;
+    background-color: transparent;
+    border: none;
+    color: #F6FCFF;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1em;
+    transition: .7s;
+    text-decoration: none;
+}
+
+.link_list li button:hover,
+
+.link_list li a:hover {
+    color: lightgrey;
+}
+
+.active {
+    background-color: #F6FCFF;
+    color: #000;
+    border-radius: 0.2em;
+}
+
+.inactive {
+    color: #F6FCFF;
+}
+
+.logout {
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    transition: .7s;
+    font-size: 1em;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    color: #F6FCFF;
+    text-transform: uppercase;
+    margin-right: 0.2em;
+    padding: .4em .4em;
+}

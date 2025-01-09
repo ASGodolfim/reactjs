@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Camisa",
+      "price": 59.9
+    },
+    {
+      "id": "2",
+      "name": "Calça vermelha",
+      "price": 90
+    },
+    {
+      "id": "3",
+      "name": "Boné aba reta",
+      "price": "29.90"
+    },
+    {
+      "id": "173b",
+      "name": "Bermuda",
+      "price": "29.90"
+    },
+    {
+      "id": "d0e1",
+      "name": "Chinelo",
+      "price": "59.90"
+    },
+    {
+      "id": "09c3",
+      "name": "Saia",
+      "price": "90.00"
+    },
+    {
+      "id": "7276",
+      "name": "Bota",
+      "price": "150.00"
+    },
+    {
+      "id": "80a3",
+      "name": "Regata",
+      "price": "30.00"
+    }
+  ]
+}

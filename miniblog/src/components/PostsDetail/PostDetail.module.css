@@ -1,0 +1,39 @@
+.content {
+    padding: 20px 20px 1px 20px;
+    margin-bottom: 2em;
+}
+
+.content img {
+    width: 600px;
+    height: 350px;
+    object-fit: scale-down;
+    margin-bottom: 1em;
+}
+
+.content h2 {
+    margin-bottom: .4em;
+}
+
+.content .tags {
+    margin-bottom: 1.2em;
+    display: flex;
+    justify-content: center;
+    font-size: .8em;
+    flex-wrap: wrap; 
+}
+
+.tags p {
+    margin-right: .5em;
+    display: inline-block; 
+}
+
+.tags span {
+    font-weight: bold;
+}
+
+.createdBy {
+    font-size: .8em;
+    font-style: italic;
+    color: #444;
+    margin-bottom: 1em;
+}

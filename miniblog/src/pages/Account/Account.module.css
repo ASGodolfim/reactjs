@@ -1,0 +1,67 @@
+.content { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.content h2 {
+    padding: 15px;
+    margin-bottom: .5em;
+    font-size: 2em;
+}
+
+.content p {
+    color: #aaa;
+    margin-bottom: 1em;
+}
+
+.noposts {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.noposts p {
+    margin-bottom: 1.5em;
+    color: #aaa;
+}
+
+.nopost a {
+    padding: 10px 25px;
+}
+
+.postHeader , .postContainer{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    width: 80%;
+}
+
+.postHeader span {
+    font-size: 1.3em;
+}
+
+.postContainer{
+    margin-top: 1em;
+    margin-bottom: 0em;
+    align-items: center;
+}
+
+.postContainer span {
+    font-size: 1em;
+    color: #555;
+}
+
+.post a, .post button {
+    font-size: .7em;
+    margin: 0px;
+    padding: 10px;
+    height: 30px;
+    width: 100px;
+}
+
+.shadow {
+    box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.2);
+}

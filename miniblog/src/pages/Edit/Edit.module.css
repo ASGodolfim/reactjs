@@ -1,0 +1,30 @@
+.content {
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 2.2em;
+}
+
+.content p {
+    color: #aaa;
+    margin-bottom: 2em;
+}
+
+.content button { 
+    margin: 20px;
+    width: 30%;
+}
+
+
+.image p {
+    color: #000;
+    margin-bottom: .2em;
+    font-weight: bold;
+}
+
+.image img{
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: 1.5em;
+}
